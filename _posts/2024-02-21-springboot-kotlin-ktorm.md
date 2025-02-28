@@ -7,7 +7,8 @@ tags: [Spring Boot, Kotlin, Ktorm, REST API, ORM]
 description: "스프링 부트와 코틀린, Ktorm을 사용해 REST API를 구현하는 방법을 소개하며, 프로젝트 설정부터 코드 작성 및 실행까지의 과정을 정리하고 GitHub 레포지토리를 공유한다."
 ---
 
-개발을 하면서 항상 "더 좋은 방식이 있을까?"라는 질문을 던지며, 코드를 깔끔하게 유지하는 방법과 편리한 개발 환경을 구축하는 데 관심이 많다. 최근 **스프링 부트**에서 **코틀린**(Kotlin)을 사용해 REST API를 구현하면서, ORM으로 **Ktorm**을 활용하는 방법이 궁금해졌다. 그래서 직접 프로젝트를 만들어 보고, 그 결과를 [GitHub 레포지토리](https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo)에 올렸다.
+개발을 하면서 항상 "더 좋은 방식이 있을까?"라는 질문을 던지며, 코드를 깔끔하게 유지하는 방법과 편리한 개발 환경을 구축하는 데 관심이 많다. 최근 **스프링 부트**에서 **코틀린**(Kotlin)을 사용해 REST API를 구현하면서, ORM으로 **Ktorm**을 활용하는 방법이 궁금해졌다. 그래서 직접 프로젝트를 만들어 보고, 그 결과를 <a href="https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo" target="_blank" rel="noopener noreferrer">GitHub 레포지토리</a>
+에 올렸다.
 
 이 글에서는 스프링 부트와 코틀린, Ktorm을 사용해 REST API를 만드는 과정을 소개하고, 환경 설정부터 코드 작성까지의 주요 단계를 정리해 본다. 또한, 완성된 데모 프로젝트를 확인할 수 있는 GitHub 링크도 함께 공유한다.
 
@@ -17,7 +18,7 @@ description: "스프링 부트와 코틀린, Ktorm을 사용해 REST API를 구�
 코틀린은 현대적이고 간결한 문법을 제공하는 언어로, 자바와 완벽하게 상호 운용이 가능해 스프링 부트 프로젝트에 적합하다. 특히 널 안전성(null safety)과 코루틴(coroutines) 같은 기능은 개발을 더 안전하고 편리하게 만들어 준다. 스프링 부트는 코틀린을 공식 지원하므로, 이런 장점을 최대한 활용할 수 있다.
 
 ### Ktorm으로 ORM
-[Ktorm](https://www.ktorm.org/)은 코틀린 전용으로 설계된 가벼운 ORM 프레임워크다. 무거운 ORM과 달리 간단하면서도 코틀린의 언어 특성을 잘 활용해 타입 안전성과 유창한(fluent) API를 제공한다. SQL 쿼리를 코틀린 스타일로 작성할 수 있어 코드가 깔끔하고 읽기 쉬운 점이 매력적이다.
+<a href="https://www.ktorm.org/" target="_blank" rel="noopener noreferrer">Ktorm</a>은 코틀린 전용으로 설계된 가벼운 ORM 프레임워크다. 무거운 ORM과 달리 간단하면서도 코틀린의 언어 특성을 잘 활용해 타입 안전성과 유창한(fluent) API를 제공한다. SQL 쿼리를 코틀린 스타일로 작성할 수 있어 코드가 깔끔하고 읽기 쉬운 점이 매력적이다.
 
 ## 개발 환경 설정
 
@@ -145,5 +146,3 @@ class KtormConfig {
 더 자세한 내용과 전체 코드는 [GitHub 레포지토리](https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo)에서 확인할 수 있다.
 
 ---
-
-**태그:** Spring Boot, Kotlin, Ktorm, REST API, ORM
