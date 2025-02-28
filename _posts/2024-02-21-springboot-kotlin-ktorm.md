@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "스프링 부트와 코틀린, Ktorm으로 REST API 구현하기"
-date: 2024-02-21
+date: 2024-02-21 12:00:00 +0900
+categories: [spring-boot, kotlin]
 tags: [Spring Boot, Kotlin, Ktorm, REST API, ORM]
+description: "스프링 부트와 코틀린, Ktorm을 사용해 REST API를 구현하는 방법을 소개하며, 프로젝트 설정부터 코드 작성 및 실행까지의 과정을 정리하고 GitHub 레포지토리를 공유한다."
 ---
 
 개발을 하면서 항상 "더 좋은 방식이 있을까?"라는 질문을 던지며, 코드를 깔끔하게 유지하는 방법과 편리한 개발 환경을 구축하는 데 관심이 많다. 최근 **스프링 부트**에서 **코틀린**(Kotlin)을 사용해 REST API를 구현하면서, ORM으로 **Ktorm**을 활용하는 방법이 궁금해졌다. 그래서 직접 프로젝트를 만들어 보고, 그 결과를 [GitHub 레포지토리](https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo)에 올렸다.

@@ -1,15 +1,16 @@
 ---
-title: "Spring Boot에서 사용자 CRUD DTO 네이밍 패턴에 대한 고찰"
+layout: post
+title: "사용자 CRUD DTO 네이밍 패턴에 대한 고찰"
 date: 2024-02-28 12:00:00 +0900
-categories: [Spring Boot, Java]
+categories: [develop]
 tags: [DTO, 네이밍 패턴, 백엔드, 코드 스타일]
-author: "keumhwan.moon"
-description: "Spring Boot에서 CRUD API를 만들면서 DTO 네이밍 패턴에 대해 고민했던 과정을 공유합니다. Request, Response 대신 Command & View 패턴을 적용하며 얻은 인사이트를 정리했습니다."
+description: "CRUD API를 구현하며 DTO 네이밍 패턴을 고민한 과정을 공유한다. Request, Response 대신 Command & View 패턴을 적용하며 얻은 인사이트를 정리한다."
 ---
 
-# 🤔 Spring Boot에서 사용자 CRUD DTO 네이밍 패턴에 대한 고찰
+# 🤔 사용자 CRUD DTO 네이밍 패턴에 대한 고찰
 
-평소 개발을 하면서 가장 고민되는 부분 중 하나가 네이밍이었다. 특히 CRUD API를 만들면서 DTO 클래스의 이름을 어떻게 지어야 할지 항상 고민이었는데, 이번에 User(사용자) 도메인을 개발하면서 이 부분에 대해 깊이있게 고민해봤다.
+평소 개발을 하면서 가장 고민되는 부분 중 하나가 네이밍이었다.  
+특히 CRUD API를 만들면서 DTO 클래스의 이름을 어떻게 지어야 할지 항상 고민이었는데, 이번에 User(사용자) 도메인을 기준으로 이 부분에 대해 고민해봤다.
 
 ## 🌱 첫 번째 시도
 
