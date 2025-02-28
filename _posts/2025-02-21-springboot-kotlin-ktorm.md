@@ -1,18 +1,25 @@
 ---
 layout: post
 title: "스프링 부트와 코틀린, Ktorm으로 REST API 구현하기"
-date: 2024-02-21 12:00:00 +0900
+date: 2025-02-21 12:00:00 +0900
 categories: [spring-boot, kotlin]
 tags: [Spring Boot, Kotlin, Ktorm, REST API, ORM]
 description: "스프링 부트와 코틀린, Ktorm을 사용해 REST API를 구현하는 방법을 소개하며, 프로젝트 설정부터 코드 작성 및 실행까지의 과정을 정리하고 GitHub 레포지토리를 공유한다."
 ---
 
-Java와 Mybatis를 사용하는 방식 외에도 다양한 개발 방법을 경험해 보고 싶었다. 그래서 여러 가지 기술을 간단히 설정해 보고 실험하는 예제를 작성하려고 한다. 그 첫 번째로 스프링 부트와 코틀린을 사용하고, 코틀린 ORM 중 첫번째로 Ktorm을 활용한 예제를 공유한다.
+---
 
-개발을 하면서 항상 "더 좋은 방식이 있을까?"라는 질문을 던지며, 코드를 깔끔하게 유지하는 방법과 편리한 개발 환경을 구축하는 데 관심이 많다. 최근 스프링 부트에서 코틀린(Kotlin)을 사용해 REST API를 구현하면서, ORM으로 Ktorm을 활용하는 방법이 궁금해졌다. 그그래서 직접 프로젝트를 만들어 보고, 그 결과를 <a href="https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo" target="_blank" rel="noopener noreferrer">GitHub 레포지토리</a>
-에 올렸다.
+Java와 Mybatis를 사용하는 방식 외에도 다양한 개발 방법을 경험해 보고 싶었다.  
+그래서 여러 가지 기술을 간단히 설정해 보고 실험하는 예제를 작성하려고 한다.  
+그 첫 번째로 스프링 부트와 코틀린을 사용하고, 코틀린 ORM 중 두번째로 Ktorm을 활용한 예제를 공유한다.  
+
+개발을 하면서 항상 "더 좋은 방식이 있을까?"라는 질문을 던지며, 코드를 깔끔하게 유지하는 방법과 편리한 개발 환경을 구축하는 데 관심이 많다.  
+최근 스프링 부트에서 코틀린(Kotlin)을 사용해 REST API를 구현하면서, ORM으로 Ktorm을 활용하는 방법이 궁금해졌다.  
+그래서 직접 프로젝트를 만들어 보고, 그 결과를 <a href="https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo" target="_blank" rel="noopener noreferrer">GitHub 레포지토리</a>에 올렸다.  
 
 이 글에서는 스프링 부트와 코틀린, Ktorm을 사용해 REST API를 만드는 과정을 소개하고, 환경 설정부터 코드 작성까지의 주요 단계를 정리해 본다. 또한, 완성된 데모 프로젝트를 확인할 수 있는 GitHub 링크도 함께 공유한다.
+
+---
 
 ## 🤔 코틀린과 Ktorm
 
@@ -30,7 +37,7 @@ Java와 Mybatis를 사용하는 방식 외에도 다양한 개발 방법을 경�
 - **Gradle** 또는 **Maven**: 의존성 관리를 위해 필요.
 
 ### 🏗️ 프로젝트 생성
-1. [Spring Initializr](https://start.spring.io/)에 접속해 새 프로젝트를 생성.
+1. <a href="https://www.ktorm.org/" target="_blank" rel="noopener noreferrer">Spring Initializr</a>에 접속해 새 프로젝트를 생성.
 2. 언어로 **Kotlin**을 선택하고, 원하는 스프링 부트 버전을 지정.
 3. REST API를 위해 **Spring Web** 의존성을 추가.
 4. 데모를 위해 인메모리 데이터베이스인 **H2 Database**를 추가.
@@ -145,6 +152,6 @@ class KtormConfig {
 
 이 글에서는 스프링 부트와 코틀린, Ktorm을 활용해 REST API를 구현하는 기본적인 설정과 코딩 과정을 정리했다. 코틀린의 깔끔한 문법과 Ktorm의 간단한 ORM 방식 덕분에 유지보수가 쉬운 코드를 작성할 수 있었다.
 
-더 자세한 내용과 전체 코드는 [GitHub 레포지토리](https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo)에서 확인할 수 있다.
+더 자세한 내용과 전체 코드는 <a href="https://github.com/keumhwanmoon/springboot-kotlin-ktorm-demo" target="_blank" rel="noopener noreferrer">GitHub 레포지토리</a>에서 확인할 수 있다.
 
 ---

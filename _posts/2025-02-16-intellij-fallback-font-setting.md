@@ -1,6 +1,6 @@
 ---
 title: "IntelliJ에서 Fallback Font 설정 및 기대 효과"
-date: 2024-02-14 12:00:00 +0900
+date: 2025-02-14 12:00:00 +0900
 categories: [IntelliJ]
 tags: [font, 설정, 가독성]
 ---

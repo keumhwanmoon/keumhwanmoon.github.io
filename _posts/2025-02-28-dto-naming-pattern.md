@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "사용자 CRUD DTO 네이밍 패턴에 대한 고찰"
-date: 2024-02-28 12:00:00 +0900
+date: 2025-02-28 12:00:00 +0900
 categories: [develop]
 tags: [DTO, 네이밍 패턴, 백엔드, 코드 스타일]
 description: "CRUD API를 구현하며 DTO 네이밍 패턴을 고민한 과정을 공유한다. Request, Response 대신 Command & View 패턴을 적용하며 얻은 인사이트를 정리한다."
